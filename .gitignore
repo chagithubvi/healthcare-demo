@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual Environment
+henv/
+
+# Project Folders
+healthops/
+Healthcare/
+# Scripts to ignore
+k.py
+make.py
+
+# Streamlit/Env
+.streamlit/secrets.toml  # Comment out if you want to commit a template
+*.db  # Ignore SQLite DB file
+healthops.db
+
+# Data/Secrets
+Healthcare/*.csv  # Ignore sensitive Synthea data
+.env
+*.log
+henv/
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
